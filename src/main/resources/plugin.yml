@@ -1,0 +1,9 @@
+name: TestPlugin
+version: '${project.version}'
+main: testserver.test_plugin.Test_plugin
+api-version: 1.18
+authors: [ SG_B00st ]
+
+commands:
+  test:
+    description: testowa komenda
